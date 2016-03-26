@@ -1,0 +1,138 @@
+body,
+html {
+  min-height: 100%;
+}
+
+body {
+  background-image: url(http://www.awesomewebstore.com/img/grand_canyon_summer_trip.jpg);
+  background-size: cover;
+}
+
+.top-header {
+  width: 100%;
+  max-width:960px;
+  font: 10em "Amatic SC", cursive;
+  color: #fff;
+  text-shadow: 2px 2px 0 rgba(0, 0,0, .7);
+  margin: 40px auto;
+  text-align: center; 
+}
+.aws-mission {
+  width: 100%;
+  max-width:960px;
+  font: 3em "Amatic SC", cursive;
+  color: #fff;
+  text-shadow: 2px 2px 0 rgba(0, 0,0, .7);
+  margin: 40px auto;
+}
+
+.awefulheader {
+  width: 100%;
+  max-width:960px;
+  font: 4em "Amatic SC", cursive;
+  color: #fff;
+  text-shadow: 2px 2px 0 rgba(0, 0,0, .7);
+  margin: 40px auto;
+  text-align: center;
+}
+.aweform {
+  width: 100%;
+  max-width:960px;
+  font: 2em "Amatic SC", cursive;
+  color: #000;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, .7);
+  margin: 40px auto;
+  text-align: center;
+}
+.awebtn {
+  color: #000;
+  font: 3em;
+  text-align: center;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, .7);
+}
+
+.awecommunication {
+  width: 100%;
+  max-width:960px;
+  font: 1.5em "Amatic SC", cursive;
+  color: #fff;
+  text-shadow: 2px 2px 0 rgba(0, 0,0, .7);
+  margin: 40px auto;
+  text-align: center;
+  font-weight: bold;
+}
+.navbar {
+  background: rgba(0,0,0,0.5);
+}
+.navbar li {
+  color: #000;
+}
+.awefulfooter {
+    color: #010101;
+}
+.input::-webkit-input-placeholder {
+color: red !important;
+}
+ 
+.input:-moz-placeholder { /* Firefox 18- */
+color: red !important;  
+}
+ 
+.input::-moz-placeholder {  /* Firefox 19+ */
+color: red !important;  
+}
+ 
+.input:-ms-input-placeholder {  
+color: red !important;  
+}
+
+.bgimage1 {/*find a way add image with opacity without effecting the text*/
+    max-height: 100%;
+    width: auto;
+    top: 0px;
+    left: 0px;
+    background-image: url(../img/creators.png);
+    opacity: 0.5;
+    border-radius: 16px;
+    text-shadow: 1px 1px #000000;
+    color: #FFFFFF;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	z-index: 1;
+}
+
+.bgimage2 {/*find a way add image with opacity without effecting the text*/
+    max-width: 100%;
+    height: auto;
+    top: 0px;
+    left: 0px;
+    /*background-image: url(../img/1.jpg);*/
+    opacity: 1;
+    border-radius: 16px;
+    text-shadow: 1px 1px #000000;
+    color: #FFFFFF;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	z-index: 2;
+}
+.navbar-default-fixed {
+}
+.navbar-default {
+}
+.navbar-fixed-top {
+}
+.awerow {
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-right: auto;
+    padding-left: auto;
+    font-weight: bolder;
+    text-shadow: 1px 1px #FFFFFF;
+}
+.awegood {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 4em;
+}
+
+.open .dropdown-menu {
+    display: block;
+}
