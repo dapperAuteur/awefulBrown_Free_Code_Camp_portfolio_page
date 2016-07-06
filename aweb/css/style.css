@@ -25,14 +25,14 @@ body {
     font-size: 7em;
 }
 .aws-mission {
-    width: 100%;
-    max-width: 960px;
-    font: 3em "Amatic SC", cursive;
-    color: #fff;
-    text-shadow: 2px 2px 0 rgba(0, 0,0, .7);
-    margin: 40px auto;
-    padding-left: 25px;
-    padding-right: 25px;
+	width: 100%;
+	max-width: 960px;
+	font: 3em "Amatic SC", cursive;
+	color: #fff;
+	text-shadow: 2px 2px 0 rgba(0, 0,0, .7);
+	margin: 40px auto;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 .awefulheader {
@@ -174,4 +174,110 @@ h3 {
 	padding-left: auto;
 	color: #FFFFFF;
 	text-align: center;
+}
+
+@media (max-width : 1076px ){
+}
+
+@media only screen and (min-width : 481px) and (max-width : 1024px) {
+/* Header */
+header {
+	width: 100%;
+	float: none;
+}
+header .profileLogo .logoPlaceholder {
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+}
+header .profilePhoto {
+	float: left;
+	clear: both;
+	margin-right: 3%;
+	margin-top: 5%;
+}
+header .profileHeader {
+	text-align: left;
+	margin-top: 7%;
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 74px;
+	height: 74px;
+	display: inline-block;
+	margin-right: 23px;
+}
+/* Main content and sections */
+.section1 .section1Title, .section2 .section1Title {
+	text-align: center;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 100%;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	display: none;
+}
+.mainContent .section1 .section1Content {
+	display: block;
+	margin: 0% 0% 0% 20%;
+	font-family: sans-serif;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.mainContent .section2 {
+	clear: both;
+}
+.section2 .section2Content {
+	padding: 0px;
+	margin-left: 20%;
+	font-family: sans-serif;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.mainContent .externalResourcesNav {
+	margin-left: 20%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	padding-top: 0px;
+	clear: both;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 199px;
+	height: 48px;
+	margin-top: 5%;
+}
+/* Footer */
+footer .footerDisclaimer {
+	float: left;
+	margin-left: 3%;
+	font-family: sans-serif;
+}
+footer .footerNote {
+	float: right;
+	margin-right: 3%;
+	font-family: sans-serif;
+}
+}
+
+@media (max-width: 480px){
+	.aws-mission {
+	width: 100%;
+	max-width: 960px;
+	font-size: 2em;
+	font-family: "Amatic SC", cursive;
+	color: #fff;
+	text-shadow: 2px 2px 0 rgba(0, 0,0, .7);
+	margin: 40px auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.awefulheader {
+  width: 100%;
+  max-width:960px;
+  font: 4em "Amatic SC", cursive;
+  color: #fff;
+  text-shadow: 2px 2px 0 rgba(0, 0,0, .7);
+  margin: 40px auto;
+  text-align: center;
+}
 }
