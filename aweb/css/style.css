@@ -165,3 +165,13 @@ h3 {
 	margin-right: auto;
 	text-align: left;
 }
+.picmonic {
+	text-shadow: 1px 1px #000;
+	font-size: large;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-right: auto;
+	padding-left: auto;
+	color: #FFFFFF;
+	text-align: center;
+}
