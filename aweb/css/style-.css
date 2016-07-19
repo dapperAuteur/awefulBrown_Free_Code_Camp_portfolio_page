@@ -6,23 +6,27 @@ html {
 	font-weight: 400;
 }
 
+.navbar {
+	font-color: black;
+}
+
 body {
-  background-color: white;
+  background-color: #ECECEA;
   background-size: cover;
 }
 
 .top-header {
-    width: 100%;
-    max-width: 960px;
-    font-size: 10em;
-    color: #fff;
-    text-shadow: 2px 2px 0 rgba(0, 0,0, .7);
-    margin-top: 79px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 40px;
-    text-align: center;
-    font-size: 7em;
+	width: 100%;
+	max-width: 960px;
+	font-size: 10em;
+	color: #fff;
+	text-shadow: 2px 2px 0 rgba(0, 0,0, .7);
+	margin-top: 79px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 5em;
 }
 .aws-mission {
 	width: 100%;
@@ -101,6 +105,7 @@ color: red !important;
 .navbar-default {
 }
 .navbar-fixed-top {
+	color: #000000;
 }
 .awerow {
 	margin-right: 50px;

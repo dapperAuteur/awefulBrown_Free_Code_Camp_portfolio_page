@@ -7,32 +7,38 @@ html {
 }
 
 body {
-  background-image: url(http://www.awesomewebstore.com/img/grand_canyon_summer_trip.jpg);
+  background-image: url(http://www.awesomewebstore.com/img/shades-of-blue-legacy.png);
   background-size: cover;
 }
 
 .top-header {
-    width: 100%;
-    max-width: 960px;
-    font-size: 10em;
-    color: #fff;
-    text-shadow: 2px 2px 0 rgba(0, 0,0, .7);
-    margin-top: 79px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 40px;
-    text-align: center;
-    font-size: 7em;
-}
-.aws-mission {
 	width: 100%;
 	max-width: 960px;
-	font: 3em "Amatic SC", cursive;
+	font-size: 10em;
 	color: #fff;
 	text-shadow: 2px 2px 0 rgba(0, 0,0, .7);
-	margin: 40px auto;
-	padding-left: 25px;
-	padding-right: 25px;
+	margin-top: 79px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 3em;
+}
+.aws-mission {
+    width: 100%;
+    max-width: 960px;
+    font-size: 2em;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(0, 0,0, .7);
+    margin: 40px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+    font-variant: small-caps;
+}
+.header-footer_font {
+    font-color: #F0791E;
 }
 
 .awefulheader {
@@ -45,13 +51,15 @@ body {
   text-align: center;
 }
 .aweform {
-  width: 100%;
-  max-width:960px;
-  font: 2em "Amatic SC", cursive;
-  color: #000;
-  text-shadow: 2px 2px 0 rgba(255, 255, 255, .7);
-  margin: 40px auto;
-  text-align: center;
+    width: 100%;
+    max-width: 960px;
+    font-size: 2em;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    color: #000;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, .7);
+    margin: 40px auto;
+    text-align: center;
+    font-variant: small-caps;
 }
 .awebtn {
   color: #000;
@@ -63,18 +71,20 @@ body {
 .awecommunication {
     width: 100%;
     max-width: 960px;
-    font: 1.5em "Amatic SC", cursive;
+    font-size: 1.5em;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
     color: #fff;
-    text-shadow: 2px 2px 0 rgba(0, 0,0, .7);
+    text-shadow: 1px 1px 0 rgba(0, 0,0, .7);
     margin: 40px auto;
     text-align: center;
     font-weight: bold;
+    font-variant: small-caps;
 }
 .navbar {
   background: rgba(0,0,0,0.5);
 }
 .navbar li {
-  color: #000;
+    color: #F0791E;
 }
 .awefulfooter {
     color: #000000;
@@ -113,7 +123,7 @@ color: red !important;
 .awegood {
     font-weight: bolder;
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .open .dropdown-menu {
@@ -124,6 +134,7 @@ color: red !important;
 .aweip {
     margin-bottom: 60px;
     text-align: center;
+    font-variant: small-caps;
 }
 .awecopy {
 	font-size: 15px;
@@ -260,15 +271,18 @@ footer .footerNote {
 
 @media (max-width: 480px){
 	.aws-mission {
-	width: 100%;
-	max-width: 960px;
-	font-size: 2em;
-	font-family: "Amatic SC", cursive;
-	color: #fff;
-	text-shadow: 2px 2px 0 rgba(0, 0,0, .7);
-	margin: 40px auto;
-	padding-left: 25px;
-	padding-right: 25px;
+    width: 100%;
+    max-width: 960px;
+    font-size: 1.5em;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(0, 0,0, .7);
+    margin: 40px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bolder;
 }
 
 .awefulheader {
@@ -280,4 +294,11 @@ footer .footerNote {
   margin: 40px auto;
   text-align: center;
 }
+}
+.btn-color {
+    background-color: #F0791E;
+}
+.header-footer_font {
+    color: #F0791E;
+    font-variant: small-caps;
 }
